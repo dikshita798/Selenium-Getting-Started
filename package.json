@@ -1,0 +1,18 @@
+{
+  "name": "selenium-getting-started",
+  "version": "1.0.0",
+  "description": "selenium getting started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node ./node_modules/mocha/bin/mocha --timeout 50000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0"
+  }
+}
